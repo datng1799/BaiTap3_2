@@ -1,3 +1,85 @@
 <resources>
-    <string name="app_name">BaiTap3_2</string>
+    <string name="app_name">QLNS - K23DTCN092</string>
+
+    <!-- ===== Thông tin sinh viên (hiển thị trên mọi màn hình) ===== -->
+    <string name="student_name">Nguyễn Quốc Đạt</string>
+    <string name="student_id">MSSV: K23DTCN092</string>
+    <string name="student_full">K23DTCN092 - Nguyễn Quốc Đạt</string>
+    <string name="student_avatar_desc">Ảnh đại diện sinh viên</string>
+
+    <!-- ===== Màn hình danh sách ===== -->
+    <string name="title_list">Danh sách nhân sự</string>
+    <string name="hint_search">Tìm theo mã, tên, quê quán, phòng ban</string>
+    <string name="label_sort">Sắp xếp:</string>
+    <string name="count_format">%1$d nhân sự</string>
+    <string name="empty_list">Không có nhân sự nào</string>
+    <string name="btn_add">Thêm</string>
+
+    <!-- ===== Item nhân sự ===== -->
+    <string name="employee_photo_desc">Ảnh nhân sự</string>
+    <string name="expand_desc">Mở rộng / thu gọn</string>
+    <string name="detail_birth_year">Năm sinh: %1$d</string>
+    <string name="detail_gender">Giới tính: %1$s</string>
+    <string name="detail_hometown">Quê quán: %1$s</string>
+    <string name="detail_education">Trình độ: %1$s</string>
+    <string name="detail_salary">Mức lương: %1$s</string>
+    <string name="btn_edit">Sửa</string>
+    <string name="btn_delete">Xóa</string>
+
+    <!-- ===== Hộp thoại xóa ===== -->
+    <string name="delete_title">Xóa nhân sự</string>
+    <string name="delete_message">Bạn có chắc muốn xóa %1$s (%2$s)?\n\n%3$s</string>
+    <string name="cancel">Hủy</string>
+    <string name="deleted">Đã xóa nhân sự</string>
+
+    <!-- ===== Màn hình thêm / sửa ===== -->
+    <string name="title_add">Thêm nhân sự</string>
+    <string name="title_edit">Sửa thông tin nhân sự</string>
+    <string name="hint_id">Mã nhân sự</string>
+    <string name="hint_name">Họ và tên</string>
+    <string name="hint_birth_year">Năm sinh</string>
+    <string name="label_gender">Giới tính</string>
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="hint_hometown">Quê quán</string>
+    <string name="label_education">Trình độ</string>
+    <string name="label_department">Phòng ban</string>
+    <string name="hint_salary">Mức lương</string>
+    <string name="suffix_money">VNĐ</string>
+    <string name="btn_pick_photo">Chọn ảnh</string>
+    <string name="btn_remove_photo">Bỏ ảnh</string>
+    <string name="btn_save">Lưu</string>
+
+    <!-- ===== Thông báo lỗi / kết quả ===== -->
+    <string name="err_required">Không được để trống</string>
+    <string name="err_id_exists">Mã nhân sự đã tồn tại</string>
+    <string name="err_birth_year">Năm sinh phải từ %1$d đến %2$d</string>
+    <string name="err_salary">Mức lương phải lớn hơn 0</string>
+    <string name="err_image">Không đọc được ảnh đã chọn</string>
+    <string name="err_save">Lưu thất bại, vui lòng thử lại</string>
+    <string name="added">Đã thêm nhân sự</string>
+    <string name="updated">Đã cập nhật nhân sự</string>
+
+    <!-- ===== Danh sách lựa chọn ===== -->
+    <string-array name="departments">
+        <item>Hành chính</item>
+        <item>Phần mềm</item>
+        <item>Kỹ thuật</item>
+        <item>Dự án</item>
+    </string-array>
+
+    <string-array name="educations">
+        <item>Trung cấp</item>
+        <item>Cao đẳng</item>
+        <item>Đại học</item>
+        <item>Thạc sĩ</item>
+        <item>Tiến sĩ</item>
+    </string-array>
+
+    <!-- Thứ tự phải khớp DatabaseHelper.SORT_DEFAULT / SORT_SALARY_ASC / SORT_SALARY_DESC -->
+    <string-array name="sort_options">
+        <item>Mặc định (theo mã)</item>
+        <item>Lương tăng dần</item>
+        <item>Lương giảm dần</item>
+    </string-array>
 </resources>
